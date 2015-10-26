@@ -13,6 +13,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.e("시작","시작");
+
+
+
+        init();
+    }
+
+    public void init(){
+        Log.e("123","123");
     }
 
     @Override
